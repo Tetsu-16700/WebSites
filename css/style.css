@@ -1,3 +1,11 @@
-body{
-   
+:root {
+  --verde: #00a149;
+  --blanco: #fff;
+  --rojo: #881014;
+  --oscuro: #000;
+  --titulos: "Arima", cursive;
+  --parrafos: "Mulish" sans-serif;
+}
+p {
+  font-family: var(--parrafos);
 }
