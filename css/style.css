@@ -6,6 +6,11 @@
   --titulos: "Arima", cursive;
   --parrafos: "Mulish" sans-serif;
 }
-p {
-  font-family: var(--parrafos);
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
