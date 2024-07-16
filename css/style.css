@@ -8,9 +8,19 @@
 }
 html {
   box-sizing: border-box;
+  /* 1rem=10px */
+  font-size: 62.5%;
 }
 *,
 *::after,
 *::before {
   box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 3rem;
 }
