@@ -35,6 +35,13 @@ p,
 a {
   font-family: var(--parrafos);
 }
+.azul {
+  color: var(--azul);
+}
+.ocultar{
+  display: none;
+}
+
 /* encabezado */
 .contenedor-navegacion {
   background-color: var(--oscuro);
@@ -44,11 +51,22 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-.logo h2, .navegacion a{
+.logo h2,
+.navegacion a {
   color: var(--blanco);
+}
+.logo h2{
+  font-size: 4rem;
 }
 .navegacion a {
   text-decoration: none;
   font-size: 2rem;
   padding: 1rem;
+}
+.hamburguesa span{
+background-color: var(--blanco);
+display: block;
+width: 5rem;
+height: .5rem;
+margin-bottom: .5rem;
 }
